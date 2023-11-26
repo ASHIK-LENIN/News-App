@@ -1,5 +1,5 @@
 
-import './NewsCard.css';
+
 
 const NewsCard = ({ title, description, src, url }) => {
 
