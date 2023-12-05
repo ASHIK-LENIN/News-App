@@ -2,10 +2,14 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import NewsCard from './NewsCard';
 
+
+
 const NewsBoard = ({category}) => {
     const [article, setArticle] = useState([]);
+    const apiKey = import.meta.env.VITE_NEWS_API_KEY
+    console.log(apiKey);
 
-    let url = `https://newsapi.org/v2/top-headlines?country=in&category=${category}&apiKey=4888add27524460788d5651177a0f12b`
+    let url = `https://newsapi.org/v2/top-headlines?country=in&category=${category}&apiKey=${apiKey}`
 
 
     useEffect(() => {

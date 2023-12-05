@@ -1,6 +1,5 @@
 
 
-
 const NewsCard = ({ title, description, src, url }) => {
 
   // Check if title and description are defined before using slice
