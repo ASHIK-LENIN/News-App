@@ -3,4 +3,6 @@
     color: #ffffff; /* Change to the desired hover color */
     transition: color 0.3s ease-in-out; /* Smooth transition effect */
   }
-  
+  .nav-link:hover{
+    cursor: pointer;
+  }

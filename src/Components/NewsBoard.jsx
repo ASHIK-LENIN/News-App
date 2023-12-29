@@ -9,7 +9,7 @@ const NewsBoard = ({category}) => {
     const apiKey = import.meta.env.VITE_NEWS_API_KEY
     console.log(apiKey);
 
-    let url = `https://newsapi.org/v2/top-headlines?country=in&category=${category}&apiKey=${apiKey}`
+    let url = ` https://newsapi.org/v2/top-headlines?country=us&category=${category}&apiKey=${apiKey}`
 
 
     useEffect(() => {
