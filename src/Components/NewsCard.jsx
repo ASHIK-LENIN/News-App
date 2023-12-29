@@ -17,7 +17,7 @@ const NewsCard = ({ title, description, src, url }) => {
       <div className="card-body">
         <h5 className="card-title">{slicedTitle}</h5>
         <p className="card-text">{slicedDescription || "Stay informed with our news app, delivering the latest headlines and breaking stories. "}</p>
-        <a href={url} className="btn btn-primary">Know more</a>
+        <a href={url} className="btn btn-primary">Read more</a>
       </div>
     </div>
   );
